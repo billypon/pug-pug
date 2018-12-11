@@ -1,3 +1,5 @@
+const pug = require('pug');
+
 module.exports = function (get_filename) {
   return function (str, options) {
     const filename = options.filename;
