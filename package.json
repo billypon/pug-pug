@@ -1,0 +1,11 @@
+{
+  "name": "pug-pug",
+  "version": "0.0.1",
+  "description": "Pug filter for pug",
+  "author": "billypon <billypon@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/billypon/pug-pug.git"
+  }
+}
