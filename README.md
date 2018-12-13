@@ -8,8 +8,8 @@ pug.filters.pug = require('pug-pug')();
 Set filename for pug when render
 
 ```javascript
-pug.filters.pug = require('pug-pug')(function (pugOptions, options) {
-  pugOptions.filename = options.filename;
+pug.filters.pug = require('pug-pug')(function (options, args) {
+  options.filename = args.filename;
 });
 ```
 
